@@ -15,9 +15,29 @@
     </head>
     <body>
 
+        <!-- Setting background color -->
+        <style>
+            body:before {
+                content: '';
+                display: block;
+                background-attachment: scroll;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: 0;
+                background-image: linear-gradient(40deg, #c7b6a7 0%, #546696 100%);
+                background-position: 0% 0%;
+                background-repeat: repeat;
+                background-size: auto;
+	        }
+        </style>
+
         <!-- Name card with links -->
         <div class="d-flex justify-content-center align-items-center text-center" style="height:600px;">
             <div class="card" style="width:550px;background:rgb(245, 245, 245)">
+                <img class="card-img-top" src="img/mountains.png" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title"  style="font-size: 40px" >Tommy Hang</h4>
                     <p class="card-text" style="font-size: 20px" >Software Systems Engineer</p>
