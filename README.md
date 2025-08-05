@@ -25,4 +25,4 @@ This site is deployed using:
 
 ## 🌐 Live Site
 
-[tommyhang.com](tommyhang.com)
+[https://tommyhang.com](https://tommyhang.com/)
