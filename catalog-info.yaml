@@ -13,7 +13,7 @@ metadata:
     - title: Discord Chat
       url: https://github.com/tommyhang/backstagetest1
   annotations:
-    github.com/project-slug: tommyhang/backstagetest1
+    github.com/project-slug: tommyhang/tommyhang.com
 spec:
   type: service
   lifecycle: experimental
