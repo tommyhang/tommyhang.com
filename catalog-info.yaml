@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstagetest1
+  description: Testing out documentation
+  links:
+    - title: Website
+      url: https://github.com/tommyhang/backstagetest1
+    - title: Documentation
+      url: https://github.com/tommyhang/backstagetest1
+    - title: Storybook
+      url: https://github.com/tommyhang/backstagetest1
+    - title: Discord Chat
+      url: https://github.com/tommyhang/backstagetest1
+  annotations:
+    github.com/project-slug: tommyhang/backstagetest1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
+  apiConsumedBy: ['component:www-artist']
